@@ -667,7 +667,7 @@
 
             let issues = [];
             if (result.scores.activity > 15) issues.push('⚠️ Padrão de atividade muito baixo para tempo de conta');
-            if (result.scores.growth > 20) issues.push('⚠️ Desproporção crítica entre seguidores e posts');
+            if (result.scores.growth > 20) issues.push('⚠ Desproporção crítica entre seguidores e posts');
             if (result.scores.profile > 15) issues.push('⚠️ Conta muito nova com muita popularidade');
             if (result.scores.suspicious > 25) issues.push('🚩 Padrão comportamental altamente suspeito de bot');
             if (result.scores.suspicious > 40) issues.push('🚨 CRÍTICO: Padrão quase certo de bot automatizado');
